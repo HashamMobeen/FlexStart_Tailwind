@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3269cba7b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./output.css" rel="stylesheet" />
+    <title>FlexStart Tailwind DEMO</title>
+  </head>
+  <body class="font-base">
+    <header
+      class="py-4.5 px-3 max-w-[1400px] border-b border-default/10 lg:px-7 lg:mx-auto"
+    >
+      <div class="flex justify-between">
+        <div class="flex gap-2 items-center">
+          <img class="w-5 h-6" src="images/logo.png" alt="Logo Image" />
+          <h1 class="text-3xl text-primary font-bold">FlexStart</h1>
+        </div>
+
+        <div class="hidden lg:flex items-center">
+          <ul
+            class="lg:flex lg:flex-row items-center text-primary font-nav text-[15px] font-medium"
+          >
+            <li class="py-[18px] px-3">
+              <a href="#">Home</a>
+            </li>
+            <li class="py-[18px] px-3">
+              <a href="#">About</a>
+            </li>
+            <li class="py-[18px] px-3">
+              <a href="#">Services</a>
+            </li>
+            <li class="py-[18px] px-3">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="py-[18px] px-3">
+              <a href="#">Team</a>
+            </li>
+            <li class="py-[18px] px-3">
+              <a href="#">Blog</a>
+            </li>
+            <li class="py-[18px] px-3">
+              <a href="#" class="flex flex-row gap-1 items-center"
+                ><span>Dropdown</span>
+                <div class="flex items-center">
+                  <i class="fa-solid fa-chevron-down text-[12px]"></i>
+                </div>
+              </a>
+
+              <div
+                  class="absolute px-5 py-3 min-w-[200px] my-2.5 bg-white border border-default/10 rounded-md"
+                >
+                  <ul>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[15px]"
+                      >
+                        Dropdown 1
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[15px] flex justify-between"
+                      >
+                        <span> Deep Dropdown </span>
+                        <div
+                          class="flex justify-center items-center"
+                        >
+                          <i class="fa-solid fa-chevron-down text-xs"></i>
+                        </div>
+                      </a>
+
+                      <div
+                        class="absolute -left-[90%] top-[20%] px-5 py-2.5 my-2.5 bg-white border border-default/10 rounded-md"
+                      >
+                        <ul>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[15px]"
+                            >
+                              Deep Dropdown 1
+                            </a>
+                          </li>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[15px]"
+                            >
+                              Deep Dropdown 2
+                            </a>
+                          </li>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[15px]"
+                            >
+                              Deep Dropdown 3
+                            </a>
+                          </li>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[15px]"
+                            >
+                              Deep Dropdown 4
+                            </a>
+                          </li>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[15px]"
+                            >
+                              Deep Dropdown 5
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[15px]"
+                      >
+                        Dropdown 2
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[15px]"
+                      >
+                        Dropdown 3
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[15px]"
+                      >
+                        Dropdown 4
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+            </li>
+            <li class="py-[18px] px-3">
+              <a href="#" class="flex flex-row gap-1 items-center"
+                ><span>Listing Dropdown</span>
+                <div class="flex items-center">
+                  <i class="fa-solid fa-chevron-down text-[12px]"></i>
+                </div>
+              </a>
+            </li>
+            <li class="py-[18px] px-3">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex items-center">
+          <button
+            class="bg-secondary text-sm/tight font-bold text-white py-1.5 px-2.5 rounded-sm mr-3 lg:py-2.5 lg:px-6"
+          >
+            Get Started
+          </button>
+          <div class="lg:hidden">
+            <i class="fa-solid fa-bars text-primary text-3xl font-light"></i>
+          </div>
+        </div>
+
+        <div class="fixed inset-0 bg-gray-800/80 z-50 py-5 px-3 lg:hidden">
+          <i class="fa-solid fa-x absolute right-5 text-2xl text-white"></i>
+
+          <nav
+            class="bg-white absolute top-[60px] inset-x-[20px] bottom-[20px] rounded-md font-nav"
+          >
+            <ul class="py-3 overflow-y-auto max-h-full">
+              <li class="px-5 py-2.5">
+                <a
+                  href="#"
+                  class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                  >Home</a
+                >
+              </li>
+              <li class="px-5 py-2.5">
+                <a
+                  href="#"
+                  class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                  >About</a
+                >
+              </li>
+              <li class="px-5 py-2.5">
+                <a
+                  href="#"
+                  class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                  >Services</a
+                >
+              </li>
+              <li class="px-5 py-2.5">
+                <a
+                  href="#"
+                  class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="px-5 py-2.5">
+                <a
+                  href="#"
+                  class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                  >Team</a
+                >
+              </li>
+              <li class="px-5 py-2.5">
+                <a
+                  href="#"
+                  class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                  >Blog</a
+                >
+              </li>
+              <li class="px-5 py-2.5">
+                <a
+                  href="#"
+                  class="text-lg focus:text-secondary text-hover text-[17px] font-medium flex justify-between"
+                >
+                  <span>Dropdown</span>
+                  <div
+                    class="w-[30px] h-[30px] bg-secondary/10 rounded-full flex justify-center items-center"
+                  >
+                    <i class="fa-solid fa-chevron-down text-xs"></i>
+                  </div>
+                </a>
+
+                <div
+                  class="px-5 py-2.5 my-2.5 bg-nav_background/3 border border-default/10 rounded-md"
+                >
+                  <ul>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Dropdown 1
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px] flex justify-between"
+                      >
+                        <span> Deep Dropdown </span>
+                        <div
+                          class="w-[30px] h-[30px] bg-secondary/10 rounded-full flex justify-center items-center"
+                        >
+                          <i class="fa-solid fa-chevron-down text-xs"></i>
+                        </div>
+                      </a>
+
+                      <div
+                        class="px-5 py-2.5 my-2.5 bg-nav_background/3 border border-default/10 rounded-md"
+                      >
+                        <ul>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                            >
+                              Deep Dropdown 1
+                            </a>
+                          </li>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                            >
+                              Deep Dropdown 2
+                            </a>
+                          </li>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                            >
+                              Deep Dropdown 3
+                            </a>
+                          </li>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                            >
+                              Deep Dropdown 4
+                            </a>
+                          </li>
+                          <li class="py-2.5">
+                            <a
+                              href="#"
+                              class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                            >
+                              Deep Dropdown 5
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Dropdown 2
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Dropdown 3
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Dropdown 4
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="px-5 py-2.5">
+                <a
+                  href="#"
+                  class="text-lg focus:text-secondary text-hover font-medium text-[17px] flex justify-between"
+                >
+                  <span>Listing Dropdown</span>
+                  <div
+                    class="w-[30px] h-[30px] bg-secondary/10 rounded-full flex justify-center items-center"
+                  >
+                    <i class="fa-solid fa-chevron-down text-xs"></i>
+                  </div>
+                </a>
+
+                <div
+                  class="px-5 py-2.5 my-2.5 bg-nav_background/3 border border-default/10 rounded-md"
+                >
+                  <ul>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 1 link 1
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 1 link 2
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 1 link 3
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 2 link 1
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 2 link 2
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 2 link 3
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 3 link 1
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 3 link 2
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 3 link 3
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 4 link 1
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 4 link 2
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 4 link 3
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 5 link 1
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 5 link 2
+                      </a>
+                    </li>
+                    <li class="py-2.5">
+                      <a
+                        href="#"
+                        class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                      >
+                        Column 5 link 3
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="px-5 py-2.5">
+                <a
+                  href="#"
+                  class="text-lg focus:text-secondary text-hover font-medium text-[17px]"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
