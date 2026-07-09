@@ -9,5 +9,24 @@
   --color-hover: #212529;
   --color-nav_background: rgb(33, 37, 41);
   --color-default: #444444;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-elg: 1024px;
   --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-xxl: 1400px;
+  --breakpoint-2xl: 1536px;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@utility animate-up-down {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
