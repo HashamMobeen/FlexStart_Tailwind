@@ -30,3 +30,17 @@
 @utility animate-up-down {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
+.faq-answer {
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-in-out;
+}
+.faq-answer.is-open {
+  grid-template-rows: 1fr;
+}
+.faq-icon {
+  transition: transform 0.3s ease-in-out;
+}
+.faq-icon.is-open {
+  transform: rotate(90deg);
+}

@@ -55,4 +55,53 @@ document.addEventListener('click', (e) => {
       menu.classList.add('hidden');
     });
   }
+
+  // 5. FAQ Accordion Toggle
+  // Clicking anywhere in the FAQ box opens its answer and closes any other
+  // open answer, so only one FAQ is expanded at a time.
+  // 5. FAQ Accordion Toggle
+  // Clicking anywhere in the FAQ box opens its answer and closes any other
+  // open answer, so only one FAQ is expanded at a time.
+  const faqItem = e.target.closest('.faq-item');
+  if (faqItem) {
+    const question = faqItem.querySelector('.faq-question');
+    const answer = faqItem.querySelector('.faq-answer');
+    const icon = faqItem.querySelector('.faq-icon');
+    const isCurrentlyOpen = answer.classList.contains('is-open');
+
+    // Close every FAQ item first
+    document.querySelectorAll('.faq-item').forEach((item) => {
+      item.querySelector('.faq-question').classList.remove('text-secondary');
+      item.querySelector('.faq-answer').classList.remove('is-open');
+      item.querySelector('.faq-icon').classList.remove('is-open');
+    });
+
+    // Re-open the clicked one, unless it was already open (acts as a toggle)
+    if (!isCurrentlyOpen) {
+      question.classList.add('text-secondary');
+      answer.classList.add('is-open');
+      icon.classList.add('is-open');
+    }
+    return;
+  }
+
+  // 6. Portfolio Filter
+  const filterBtn = e.target.closest('.portfolio-filter');
+  if (filterBtn) {
+    const filterValue = filterBtn.dataset.filter;
+
+    // Reset every filter pill, then highlight only the clicked one
+    document.querySelectorAll('.portfolio-filter').forEach((btn) => {
+      btn.classList.remove('is-active', 'text-secondary');
+    });
+    filterBtn.classList.add('is-active', 'text-secondary');
+
+    // Show only items matching the selected category ("all" shows everything)
+    document.querySelectorAll('.portfolio-item').forEach((item) => {
+      const matches = filterValue === 'all' || item.dataset.category === filterValue;
+      item.classList.toggle('hidden', !matches);
+    });
+    return;
+  }
+  
 });
