@@ -1,3 +1,5 @@
+console.log("main.js loaded");
+
 // Using a centralized event delegation approach for 100% reliability and consistency.
 // This completely avoids any DOMContentLoaded timing issues.
 document.addEventListener('click', (e) => {
@@ -105,3 +107,39 @@ document.addEventListener('click', (e) => {
   }
   
 });
+
+console.log(typeof Swiper);
+
+const testimonialSwiper = new Swiper(".testimonial-slider", {
+    loop: true,
+
+    speed: 800,
+
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 24,
+      },
+
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 24,
+      },
+
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 24,
+      },
+    },
+  });

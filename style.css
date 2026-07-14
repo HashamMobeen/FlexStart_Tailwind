@@ -44,3 +44,27 @@
 .faq-icon.is-open {
   transform: rotate(90deg);
 }
+
+.testimonial-track {
+  transition: transform 0.5s ease-in-out;
+}
+.testimonial-dot {
+  background-color: color-mix(in srgb, var(--color-secondary) 15%, transparent);
+}
+.testimonial-dot.is-active {
+  background-color: var(--color-secondary);
+}
+.swiper {
+    /* padding-bottom: 50px; */
+}
+
+.swiper-pagination {
+    position: relative !important;
+}
+
+.team-mask::after {
+  -webkit-mask: url("images/team-shape.svg") no-repeat center bottom;
+  mask: url("images/team-shape.svg") no-repeat center bottom;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
