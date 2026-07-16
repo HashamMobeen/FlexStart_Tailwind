@@ -143,3 +143,24 @@ const testimonialSwiper = new Swiper(".testimonial-slider", {
       },
     },
   });
+
+// Header background on scroll
+(() => {
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+
+  const SCROLL_THRESHOLD = 50; 
+
+  const updateHeader = () => {
+    if (window.scrollY > SCROLL_THRESHOLD) {
+      header.classList.remove('bg-transparent');
+      header.classList.add('bg-white', 'shadow-[0px_2px_20px_rgba(0,0,0,0.1)]');
+    } else {
+      header.classList.add('bg-transparent');
+      header.classList.remove('bg-white', 'shadow-[0px_2px_20px_rgba(0,0,0,0.1)]');
+    }
+  };
+
+  window.addEventListener('scroll', updateHeader);
+  updateHeader(); 
+})();

@@ -16,413 +16,104 @@
   </head>
   <body class="font-base">
     <!-- Header Section -->
-    <header
-      class="fixed top-0 left-0 w-full z-40 bg-transparent py-4.5 px-3 lg:px-7"
-    >
-      <div class="max-w-[1320px] lg:mx-auto flex justify-between">
-        <!-- Logo Container -->
-        <div class="flex gap-2 items-center">
-          <img class="w-5 h-6" src="images/logo.png" alt="Logo Image" />
-          <h1 class="text-3xl text-primary font-bold">FlexStart</h1>
-        </div>
-
-        <!-- Navigation Bar -->
-        <div class="hidden lg:flex items-center">
-          <ul
-            class="lg:flex lg:flex-row items-center text-primary font-nav text-[15px] font-medium"
-          >
-            <li class="py-[18px] px-3">
-              <a
-                href="#"
-                class="focus:text-secondary hover:text-secondary transition-colors duration-200"
-                >Home</a
-              >
-            </li>
-            <li class="py-[18px] px-3">
-              <a
-                href="#"
-                class="focus:text-secondary hover:text-secondary transition-colors duration-200"
-                >About</a
-              >
-            </li>
-            <li class="py-[18px] px-3">
-              <a
-                href="#"
-                class="focus:text-secondary hover:text-secondary transition-colors duration-200"
-                >Services</a
-              >
-            </li>
-            <li class="py-[18px] px-3">
-              <a
-                href="#"
-                class="focus:text-secondary hover:text-secondary transition-colors duration-200"
-                >Portfolio</a
-              >
-            </li>
-            <li class="py-[18px] px-3">
-              <a
-                href="#"
-                class="focus:text-secondary hover:text-secondary transition-colors duration-200"
-                >Team</a
-              >
-            </li>
-            <li class="py-[18px] px-3">
-              <a
-                href="#"
-                class="focus:text-secondary hover:text-secondary transition-colors duration-200"
-                >Blog</a
-              >
-            </li>
-            <li class="py-[18px] px-3">
-              <a
-                href="#"
-                class="flex flex-row gap-1 items-center focus:text-secondary hover:text-secondary transition-colors duration-200"
-                ><span>Dropdown</span>
-                <div class="flex items-center">
-                  <i class="fa-solid fa-chevron-down text-[12px]"></i>
-                </div>
-              </a>
-
-              <div
-                class="hidden absolute px-5 py-3 min-w-[200px] my-2.5 bg-white border border-default/10 rounded-md"
-              >
-                <ul>
-                  <li class="py-2.5">
-                    <a
-                      href="#"
-                      class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Dropdown 1
-                    </a>
-                  </li>
-                  <li class="py-2.5">
-                    <a
-                      href="#"
-                      class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px] flex justify-between"
-                    >
-                      <span> Deep Dropdown </span>
-                      <div class="flex justify-center items-center">
-                        <i class="fa-solid fa-chevron-down text-xs"></i>
-                      </div>
-                    </a>
-
-                    <div
-                      class="hidden absolute left-[-90%] top-[20%] px-5 py-2.5 my-2.5 bg-white border border-default/10 rounded-md"
-                    >
-                      <ul>
-                        <li class="py-2.5">
-                          <a
-                            href="#"
-                            class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                          >
-                            Deep Dropdown 1
-                          </a>
-                        </li>
-                        <li class="py-2.5">
-                          <a
-                            href="#"
-                            class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                          >
-                            Deep Dropdown 2
-                          </a>
-                        </li>
-                        <li class="py-2.5">
-                          <a
-                            href="#"
-                            class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                          >
-                            Deep Dropdown 3
-                          </a>
-                        </li>
-                        <li class="py-2.5">
-                          <a
-                            href="#"
-                            class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                          >
-                            Deep Dropdown 4
-                          </a>
-                        </li>
-                        <li class="py-2.5">
-                          <a
-                            href="#"
-                            class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                          >
-                            Deep Dropdown 5
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="py-2.5">
-                    <a
-                      href="#"
-                      class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Dropdown 2
-                    </a>
-                  </li>
-                  <li class="py-2.5">
-                    <a
-                      href="#"
-                      class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Dropdown 3
-                    </a>
-                  </li>
-                  <li class="py-2.5">
-                    <a
-                      href="#"
-                      class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Dropdown 4
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="py-[18px] px-3">
-              <a
-                href="#"
-                class="flex flex-row gap-1 items-center focus:text-secondary hover:text-secondary transition-colors duration-200"
-                ><span>Listing Dropdown</span>
-                <div class="flex items-center">
-                  <i class="fa-solid fa-chevron-down text-[12px]"></i>
-                </div>
-              </a>
-
-              <div
-                class="absolute left-0 right-0 top-3/4 shadow-[0px_0px_20px_rgba(0,0,0,0.1)] hidden bg-white rounded-md"
-              >
-                <ul class="grid grid-cols-5 gap-4">
-                  <li class="py-2.5 flex flex-col">
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 1 link 1
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 1 link 2
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 1 link 3
-                    </a>
-                  </li>
-                  <li class="py-2.5 flex flex-col">
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 2 link 1
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 2 link 2
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 2 link 3
-                    </a>
-                  </li>
-                  <li class="py-2.5 flex flex-col">
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 3 link 1
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 3 link 2
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 3 link 3
-                    </a>
-                  </li>
-                  <li class="py-2.5 flex flex-col">
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 4 link 1
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 4 link 2
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 4 link 3
-                    </a>
-                  </li>
-                  <li class="py-2.5 flex flex-col">
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 5 link 1
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 5 link 2
-                    </a>
-                    <a
-                      href="#"
-                      class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
-                    >
-                      Column 5 link 3
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="py-[18px] px-3">
-              <a
-                href="#"
-                class="focus:text-secondary hover:text-secondary transition-colors duration-200"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <!-- Header Button -->
-        <div class="flex items-center">
-          <button
-            class="bg-secondary text-sm/tight font-bold text-white py-1.5 px-2.5 rounded-sm mr-3 lg:py-2.5 lg:px-6"
-          >
-            Get Started
-          </button>
-          <div
-            class="lg:hidden flex items-center cursor-pointer mobile-nav-toggle"
-          >
-            <i
-              class="fa-solid fa-bars text-primary text-2xl font-light mobile-nav-bar"
-            ></i>
+        <header class="site-header fixed top-0 left-0 w-full z-40 bg-transparent transition-colors duration-300">
+      <div
+        class="px-3 py-4.5 w-full lg:max-w-[1140px] lg:mx-auto xxl:max-w-[1320px]"
+      >
+        <div class="relative flex justify-between">
+          <!-- Logo Container -->
+          <div class="flex gap-2 items-center">
+            <img class="w-5 h-6" src="images/logo.png" alt="Logo Image" />
+            <h1 class="text-3xl text-primary font-bold">FlexStart</h1>
           </div>
-        </div>
-
-        <!-- Hamburger Menu -->
-        <div
-          class="hidden fixed inset-0 bg-gray-800/80 z-50 py-5 px-3 lg:hidden mobile-nav-menu"
-        >
-          <i
-            class="fa-solid fa-x absolute right-5 text-2xl text-white cursor-pointer mobile-nav-close"
-          ></i>
-
-          <nav
-            class="bg-white absolute top-[60px] inset-x-[20px] bottom-[20px] rounded-md font-nav"
-          >
-            <ul class="py-3 overflow-y-auto max-h-full">
-              <li class="px-5 py-2.5">
+          <!-- Navigation Bar -->
+          <div class="hidden lg:flex items-center">
+            <ul
+              class="lg:flex lg:flex-row items-center text-primary font-nav text-[15px] font-medium"
+            >
+              <li class="py-[18px] px-3">
                 <a
                   href="#"
-                  class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                  class="focus:text-secondary hover:text-secondary transition-colors duration-200"
                   >Home</a
                 >
               </li>
-              <li class="px-5 py-2.5">
+              <li class="py-[18px] px-3">
                 <a
                   href="#"
-                  class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                  class="focus:text-secondary hover:text-secondary transition-colors duration-200"
                   >About</a
                 >
               </li>
-              <li class="px-5 py-2.5">
+              <li class="py-[18px] px-3">
                 <a
                   href="#"
-                  class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                  class="focus:text-secondary hover:text-secondary transition-colors duration-200"
                   >Services</a
                 >
               </li>
-              <li class="px-5 py-2.5">
+              <li class="py-[18px] px-3">
                 <a
                   href="#"
-                  class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                  class="focus:text-secondary hover:text-secondary transition-colors duration-200"
                   >Portfolio</a
                 >
               </li>
-              <li class="px-5 py-2.5">
+              <li class="py-[18px] px-3">
                 <a
                   href="#"
-                  class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                  class="focus:text-secondary hover:text-secondary transition-colors duration-200"
                   >Team</a
                 >
               </li>
-              <li class="px-5 py-2.5">
+              <li class="py-[18px] px-3">
                 <a
                   href="#"
-                  class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                  class="focus:text-secondary hover:text-secondary transition-colors duration-200"
                   >Blog</a
                 >
               </li>
-              <li class="px-5 py-2.5">
+              <li class="group py-[18px] px-3">
                 <a
                   href="#"
-                  class="text-lg focus:text-secondary hover:text-secondary text-hover text-[17px] font-medium flex justify-between"
-                >
-                  <span>Dropdown</span>
-                  <div
-                    class="w-[30px] h-[30px] bg-secondary/10 rounded-full flex justify-center items-center"
-                  >
-                    <i class="fa-solid fa-chevron-down text-xs"></i>
+                  class="flex flex-row gap-1 items-center focus:text-secondary group-hover:text-secondary transition-colors duration-200"
+                  ><span>Dropdown</span>
+                  <div class="flex items-center">
+                    <i class="fa-solid fa-chevron-down text-[12px]"></i>
                   </div>
                 </a>
 
                 <div
-                  class="hidden px-5 py-2.5 my-2.5 bg-nav_background/3 border border-default/10 rounded-md"
+                  class="hidden absolute px-5 py-3 min-w-[200px] my-2.5 bg-white border border-default/10 rounded-md group-hover:flex"
                 >
                   <ul>
                     <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Dropdown 1
                       </a>
                     </li>
-                    <li class="py-2.5">
+                    <li class="group/sub py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px] flex justify-between"
+                        class="text-lg focus:text-secondary group-hover/sub:text-secondary text-hover font-medium text-[15px] flex justify-between"
                       >
                         <span> Deep Dropdown </span>
-                        <div
-                          class="w-[30px] h-[30px] bg-secondary/10 rounded-full flex justify-center items-center"
-                        >
+                        <div class="flex justify-center items-center">
                           <i class="fa-solid fa-chevron-down text-xs"></i>
                         </div>
                       </a>
 
                       <div
-                        class="hidden px-5 py-2.5 my-2.5 bg-nav_background/3 border border-default/10 rounded-md"
+                        class="hidden absolute left-[-90%] top-[20%] px-5 py-2.5 my-2.5 bg-white border border-default/10 rounded-md group-hover/sub:flex"
                       >
                         <ul>
                           <li class="py-2.5">
                             <a
                               href="#"
-                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                             >
                               Deep Dropdown 1
                             </a>
@@ -430,7 +121,7 @@
                           <li class="py-2.5">
                             <a
                               href="#"
-                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                             >
                               Deep Dropdown 2
                             </a>
@@ -438,7 +129,7 @@
                           <li class="py-2.5">
                             <a
                               href="#"
-                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                             >
                               Deep Dropdown 3
                             </a>
@@ -446,7 +137,7 @@
                           <li class="py-2.5">
                             <a
                               href="#"
-                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                             >
                               Deep Dropdown 4
                             </a>
@@ -454,7 +145,7 @@
                           <li class="py-2.5">
                             <a
                               href="#"
-                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                             >
                               Deep Dropdown 5
                             </a>
@@ -465,7 +156,7 @@
                     <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Dropdown 2
                       </a>
@@ -473,7 +164,7 @@
                     <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Dropdown 3
                       </a>
@@ -481,7 +172,7 @@
                     <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Dropdown 4
                       </a>
@@ -489,139 +180,116 @@
                   </ul>
                 </div>
               </li>
-              <li class="px-5 py-2.5">
+              <li class="group py-[18px] px-3">
                 <a
                   href="#"
-                  class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px] flex justify-between"
-                >
-                  <span>Listing Dropdown</span>
-                  <div
-                    class="w-[30px] h-[30px] bg-secondary/10 rounded-full flex justify-center items-center"
-                  >
-                    <i class="fa-solid fa-chevron-down text-xs"></i>
+                  class="flex flex-row gap-1 items-center focus:text-secondary group-hover:text-secondary transition-colors duration-200"
+                  ><span>Listing Dropdown</span>
+                  <div class="flex items-center">
+                    <i class="fa-solid fa-chevron-down text-[12px]"></i>
                   </div>
                 </a>
 
                 <div
-                  class="hidden px-5 py-2.5 my-2.5 bg-nav_background/3 border border-default/10 rounded-md"
+                  class="absolute left-0 right-0 top-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] hidden bg-white rounded-md group-hover:block"
                 >
-                  <ul>
-                    <li class="py-2.5">
+                  <ul class="grid grid-cols-5 gap-4">
+                    <li class="py-2.5 flex flex-col">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 1 link 1
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 1 link 2
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 1 link 3
                       </a>
                     </li>
-                    <li class="py-2.5">
+                    <li class="py-2.5 flex flex-col">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 2 link 1
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 2 link 2
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 2 link 3
                       </a>
                     </li>
-                    <li class="py-2.5">
+                    <li class="py-2.5 flex flex-col">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 3 link 1
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 3 link 2
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 3 link 3
                       </a>
                     </li>
-                    <li class="py-2.5">
+                    <li class="py-2.5 flex flex-col">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 4 link 1
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 4 link 2
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 4 link 3
                       </a>
                     </li>
-                    <li class="py-2.5">
+                    <li class="py-2.5 flex flex-col">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 5 link 1
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 5 link 2
                       </a>
-                    </li>
-                    <li class="py-2.5">
                       <a
                         href="#"
-                        class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        class="text-lg flex py-2.5 px-5 focus:text-secondary hover:text-secondary text-hover font-medium text-[15px]"
                       >
                         Column 5 link 3
                       </a>
@@ -629,15 +297,348 @@
                   </ul>
                 </div>
               </li>
-              <li class="px-5 py-2.5">
+              <li class="py-[18px] px-3">
                 <a
                   href="#"
-                  class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                  class="focus:text-secondary hover:text-secondary transition-colors duration-200"
                   >Contact</a
                 >
               </li>
             </ul>
-          </nav>
+          </div>
+
+          <!-- Header Button -->
+          <div class="flex items-center">
+            <button
+              class="bg-secondary text-sm/tight font-bold text-white py-1.5 px-2.5 rounded-sm mr-3 lg:mr-0 lg:py-2.5 lg:px-6 cursor-pointer hover:bg-secondary/80"
+            >
+              Get Started
+            </button>
+            <div
+              class="lg:hidden flex items-center cursor-pointer mobile-nav-toggle"
+            >
+              <i
+                class="fa-solid fa-bars text-primary text-2xl mr-2.5 font-light mobile-nav-bar"
+              ></i>
+            </div>
+          </div>
+
+          <!-- Hamburger Menu -->
+          <div
+            class="hidden fixed inset-0 bg-gray-800/80 z-50 py-5 px-3 lg:hidden mobile-nav-menu"
+          >
+            <i
+              class="fa-solid fa-x absolute right-5 text-2xl text-white cursor-pointer mobile-nav-close"
+            ></i>
+
+            <nav
+              class="bg-white absolute top-section inset-x-[20px] bottom-[20px] rounded-md font-nav"
+            >
+              <ul class="py-3 overflow-y-auto max-h-full">
+                <li class="px-5 py-2.5">
+                  <a
+                    href="#"
+                    class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                    >Home</a
+                  >
+                </li>
+                <li class="px-5 py-2.5">
+                  <a
+                    href="#"
+                    class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                    >About</a
+                  >
+                </li>
+                <li class="px-5 py-2.5">
+                  <a
+                    href="#"
+                    class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                    >Services</a
+                  >
+                </li>
+                <li class="px-5 py-2.5">
+                  <a
+                    href="#"
+                    class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="px-5 py-2.5">
+                  <a
+                    href="#"
+                    class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                    >Team</a
+                  >
+                </li>
+                <li class="px-5 py-2.5">
+                  <a
+                    href="#"
+                    class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                    >Blog</a
+                  >
+                </li>
+                <li class="px-5 py-2.5">
+                  <a
+                    href="#"
+                    class="text-lg focus:text-secondary hover:text-secondary text-hover text-[17px] font-medium flex justify-between"
+                  >
+                    <span>Dropdown</span>
+                    <div
+                      class="w-[30px] h-[30px] bg-secondary/10 rounded-full flex justify-center items-center"
+                    >
+                      <i class="fa-solid fa-chevron-down text-xs"></i>
+                    </div>
+                  </a>
+
+                  <div
+                    class="hidden px-5 py-2.5 my-2.5 bg-nav_background/3 border border-default/10 rounded-md"
+                  >
+                    <ul>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Dropdown 1
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px] flex justify-between"
+                        >
+                          <span> Deep Dropdown </span>
+                          <div
+                            class="w-[30px] h-[30px] bg-secondary/10 rounded-full flex justify-center items-center"
+                          >
+                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                          </div>
+                        </a>
+
+                        <div
+                          class="hidden px-5 py-2.5 my-2.5 bg-nav_background/3 border border-default/10 rounded-md"
+                        >
+                          <ul>
+                            <li class="py-2.5">
+                              <a
+                                href="#"
+                                class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              >
+                                Deep Dropdown 1
+                              </a>
+                            </li>
+                            <li class="py-2.5">
+                              <a
+                                href="#"
+                                class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              >
+                                Deep Dropdown 2
+                              </a>
+                            </li>
+                            <li class="py-2.5">
+                              <a
+                                href="#"
+                                class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              >
+                                Deep Dropdown 3
+                              </a>
+                            </li>
+                            <li class="py-2.5">
+                              <a
+                                href="#"
+                                class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              >
+                                Deep Dropdown 4
+                              </a>
+                            </li>
+                            <li class="py-2.5">
+                              <a
+                                href="#"
+                                class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                              >
+                                Deep Dropdown 5
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Dropdown 2
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Dropdown 3
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Dropdown 4
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="px-5 py-2.5">
+                  <a
+                    href="#"
+                    class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px] flex justify-between"
+                  >
+                    <span>Listing Dropdown</span>
+                    <div
+                      class="w-[30px] h-[30px] bg-secondary/10 rounded-full flex justify-center items-center"
+                    >
+                      <i class="fa-solid fa-chevron-down text-xs"></i>
+                    </div>
+                  </a>
+
+                  <div
+                    class="hidden px-5 py-2.5 my-2.5 bg-nav_background/3 border border-default/10 rounded-md"
+                  >
+                    <ul>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 1 link 1
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 1 link 2
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 1 link 3
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 2 link 1
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 2 link 2
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 2 link 3
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 3 link 1
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 3 link 2
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 3 link 3
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 4 link 1
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 4 link 2
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 4 link 3
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 5 link 1
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 5 link 2
+                        </a>
+                      </li>
+                      <li class="py-2.5">
+                        <a
+                          href="#"
+                          class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                        >
+                          Column 5 link 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="px-5 py-2.5">
+                  <a
+                    href="#"
+                    class="text-lg focus:text-secondary hover:text-secondary text-hover font-medium text-[17px]"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
@@ -646,105 +647,109 @@
     <main>
       <!-- Hero Section -->
       <section
-        class="relative flex flex-col items-center justify-center min-h-screen overflow-y-auto bg-[url('./images/hero-bg.png')] bg-length-[100%_auto] elg:bg-auto bg-position-[top_center] bg-no-repeat pb-[60px] pt-[80px] elg:mt-0 elg:pt-[100px]"
+        class="relative flex flex-col items-center justify-center min-h-screen 2xl:min-h-[50vh] overflow-y-auto bg-[url('./images/hero-bg.png')] bg-length-[100%_auto] elg:bg-auto bg-position-[top_center] bg-no-repeat pb-section pt-[80px] elg:mt-0 elg:pt-[100px]"
       >
-        <div
-          class="container max-w-[90%] sm:max-w-[85%] elg:max-w-[1320px] flex flex-col elg:flex-row-reverse justify-center items-center mx-auto"
-        >
-          <div class="px-5 mt-4 w-fit elg:w-1/2 elg:mt-0">
-            <img
-              class="animate-up-down w-[520px] h-[410px] lg:w-full"
-              src="images/hero-img.png"
-              alt="Hero Image"
-            />
-          </div>
-          <div class="mt-6 elg:mt-0 elg:w-1/2">
-            <h2 class="text-3xl sm:text-5xl text-primary font-bold">
-              We offer modern solutions for growing your business
-            </h2>
-            <p
-              class="text-[18px] mt-1.5 mb-8 text-default/80 md:text-[20px] font-sans"
-            >
-              We are team of talented designers making websites with Bootstrap
-            </p>
-            <div class="flex flex-col md:flex-row">
-              <button
-                class="bg-secondary text-white rounded-sm py-3 px-10 shadow-[0_8px_28px_rgba(0,0,0,0.1)]"
+        <div class="section-container">
+          <div
+            class="flex flex-col elg:flex-row-reverse justify-center items-center mx-auto"
+          >
+            <div class="px-3 mt-4 w-fit elg:w-1/2 elg:mt-0">
+              <img
+                class="animate-up-down w-[520px] h-[280px] md:h-[350px] lg:h-[410px] lg:w-full"
+                src="images/hero-img.png"
+                alt="Hero Image"
+              />
+            </div>
+            <div class="px-3 mt-6 elg:mt-0 elg:w-1/2">
+              <h2 class="text-3xl sm:text-5xl/[56px] text-primary font-bold">
+                We offer modern solutions for growing your business
+              </h2>
+              <p
+                class="text-[18px] mt-1.5 mb-8 text-default/80 md:text-[20px] font-sans"
               >
-                <span>Get Started</span>
-                <i class="fa-solid fa-arrow-right text-[16px]"></i>
-              </button>
-
-              <button
-                class="mt-6 flex justify-center items-center md:mt-0 md:ml-6"
-              >
-                <i
-                  class="fa-solid fa-circle-play text-[32px] mr-2 text-secondary"
-                ></i>
-                <span class="font-sans text-default font-bold"
-                  >Watch Video</span
+                We are team of talented designers making websites with Bootstrap
+              </p>
+              <div class="flex flex-col md:flex-row">
+                <button
+                  class="group bg-secondary text-white rounded-sm py-3 px-10 shadow-[0_8px_28px_rgba(0,0,0,0.1)] cursor-pointer hover:bg-secondary/80"
                 >
-              </button>
+                  <span>Get Started</span>
+                  <i
+                    class="fa-solid fa-arrow-right text-[16px] transition-translate duration-300 group-hover:translate-x-1.5"
+                  ></i>
+                </button>
+
+                <button
+                  class="group mt-6 flex justify-center items-center md:mt-0 md:ml-6 cursor-pointer"
+                >
+                  <i
+                    class="fa-solid fa-circle-play text-[32px] mr-2 text-secondary group-hover:text-secondary/80"
+                  ></i>
+                  <span
+                    class="font-sans text-default font-bold group-hover:text-secondary"
+                    >Watch Video</span
+                  >
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- About Section -->
-      <section class="py-[60px]">
-        <div
-          class="container min-w-full px-3 flex flex-col items-center max-w-[1320px] elg:min-w-0 elg:mx-auto elg:flex-row"
-        >
-          <div class="flex-1 flex-col gap-2 justify-center bg-secondary/5 p-10">
-            <h3 class="text-sm font-bold text-secondary">WHO WE ARE</h3>
-            <h2 class="text-2xl font-bold text-primary">
-              Expedita voluptas omnis cupiditate totam eveniet nobis sint iste.
-              Dolores est repellat corrupti reprehenderit.
-            </h2>
-            <p class="font-sans text-default mt-3.5 mb-5">
-              Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et.
-              Inventore et et dolor consequatur itaque ut voluptate sed et.
-              Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti
-            </p>
-            <div class="mx-auto">
-              <a
-                href="#"
-                class="text-white bg-secondary py-[15px] px-10 rounded-sm shadow-[0px_5px_25px_rgba(0,0,0,0.1)]"
-              >
-                <span class="font-semibold font-sans tracking-[1px]">
-                  Read More
-                </span>
-                <i class="fa-solid fa-arrow-right text-[15px]"></i>
-              </a>
+      <section class="py-section">
+        <div class="section-container">
+          <div class="px-3 flex flex-col items-center elg:flex-row">
+            <div
+              class="flex-1 flex-col gap-2 justify-center bg-secondary/5 p-10"
+            >
+              <h3 class="text-sm font-bold text-secondary">WHO WE ARE</h3>
+              <h2 class="text-2xl font-bold text-primary">
+                Expedita voluptas omnis cupiditate totam eveniet nobis sint
+                iste. Dolores est repellat corrupti reprehenderit.
+              </h2>
+              <p class="font-sans text-default mt-3.5 mb-5">
+                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
+                et. Inventore et et dolor consequatur itaque ut voluptate sed
+                et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
+                corrupti
+              </p>
+              <div class="mx-auto">
+                <a
+                  href="#"
+                  class="group text-white bg-secondary py-[15px] px-10 rounded-sm shadow-[0px_5px_25px_rgba(0,0,0,0.1)]"
+                >
+                  <span class="font-semibold font-sans tracking-[1px]">
+                    Read More
+                  </span>
+                  <i
+                    class="fa-solid fa-arrow-right text-[15px] group-hover:translate-x-1.5"
+                  ></i>
+                </a>
+              </div>
             </div>
-          </div>
 
-          <div class="flex-1">
-            <img src="images/about.jpg" alt="About Image" />
+            <div class="flex-1">
+              <img src="images/about.jpg" alt="About Image" />
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Values Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col items-center gap-2.5 pb-[60px] px-3">
-          <h2
-            class="inline-flex text-sm py-2 px-5 tracking-[1px] font-bold bg-secondary/10 text-secondary uppercase rounded-full font-sans"
-          >
-            our values
-          </h2>
-          <p class="text-primary font-bold text-3xl mb-5">What we value most</p>
+      <section class="py-section">
+        <div class="flex flex-col items-center gap-2.5 pb-section px-3">
+          <h2 class="section-badge">our values</h2>
+          <p class="section-title mb-5">What we value most</p>
         </div>
 
-        <div
-          class="w-full max-w-[560px] mx-auto md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
+        <div class="section-container">
           <div class="w-full flex flex-col elg:flex-row px-3 gap-6 rounded-lg">
             <div
-              class="p-[30px] shadow-[0px_0_10px_rgba(0,0,0,0.1)] flex flex-col gap-4 items-center hover:shadow-[0_0_30px_rgba(0,0,0,0.1)]"
+              class="group p-[30px] shadow-[0px_0_10px_rgba(0,0,0,0.1)] flex flex-col gap-4 items-center hover:shadow-[0_0_30px_rgba(0,0,0,0.1)]"
             >
               <img
-                class="pt-[30px] pb-3 px-12"
+                class="pt-[30px] pb-3 px-12 transition-scale duration-300 group-hover:scale-90"
                 src="images/values-1.png"
                 alt="Value 1"
               />
@@ -756,11 +761,12 @@
                 consequuntur sit. Et veritatis id.
               </p>
             </div>
+
             <div
-              class="p-[30px] shadow-[0px_0_10px_rgba(0,0,0,0.1)] flex flex-col gap-4 items-center hover:shadow-[0_0_30px_rgba(0,0,0,0.1)]"
+              class="group p-[30px] shadow-[0px_0_10px_rgba(0,0,0,0.1)] flex flex-col gap-4 items-center hover:shadow-[0_0_30px_rgba(0,0,0,0.1)]"
             >
               <img
-                class="pt-[30px] pb-3 px-12"
+                class="pt-[30px] pb-3 px-12 transition-scale duration-300 group-hover:scale-90"
                 src="images/values-2.png"
                 alt="Value 2"
               />
@@ -773,10 +779,10 @@
               </p>
             </div>
             <div
-              class="p-[30px] shadow-[0px_0_10px_rgba(0,0,0,0.1)] flex flex-col gap-4 items-center hover:shadow-[0_0_30px_rgba(0,0,0,0.1)]"
+              class="group p-[30px] shadow-[0px_0_10px_rgba(0,0,0,0.1)] flex flex-col gap-4 items-center hover:shadow-[0_0_30px_rgba(0,0,0,0.1)]"
             >
               <img
-                class="pt-[30px] pb-3 px-12"
+                class="pt-[30px] pb-3 px-12 transition-scale duration-300 group-hover:scale-90"
                 src="images/values-3.png"
                 alt="Value 3"
               />
@@ -793,10 +799,8 @@
       </section>
 
       <!-- Stats Section -->
-      <section class="py-[60px]">
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
+      <section class="py-section">
+        <div class="section-container">
           <div class="flex flex-wrap">
             <div
               class="w-full mx-3 mt-6 md:w-[calc(50%-24px)] elg:w-[calc(25%-24px)]"
@@ -874,21 +878,15 @@
       </section>
 
       <!-- Features Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            features
-          </h2>
-          <p class="text-primary text-[32px] font-bold">
-            Our Advacedd Features
-          </p>
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">features</h2>
+          <p class="section-title">Our Advacedd Features</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
+        <div class="section-container">
           <div
             class="flex flex-col lg:flex-row lg:items-center justify-between"
           >
@@ -965,11 +963,9 @@
         </div>
       </section>
 
-      <!-- Alt Features Section -->
-      <section class="pb-[60px]">
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
+      <!-- Alt features Section -->
+      <section class="pb-section">
+        <div class="section-container">
           <div
             class="flex flex-col lg:flex-row-reverse lg:items-center justify-between"
           >
@@ -1079,26 +1075,22 @@
       </section>
 
       <!-- Services Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            services
-          </h2>
-          <p class="text-primary text-[32px] font-bold">Check Our Services</p>
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">services</h2>
+          <p class="section-title">Check Our Services</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
-          <div class="flex flex-col md:flex-row flex-wrap items-start">
+        <div class="section-container">
+          <div class="flex flex-col md:flex-row flex-wrap elg:items-stretch">
             <div class="px-3 w-full md:w-1/2 elg:w-1/3">
               <div
-                class="group py-[60px] px-[30px] text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-[#0dcaf0] hover:bg-[#0dcaf0]"
+                class="group h-full py-section px-[30px] flex flex-col items-center text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-services-aqua transition-all duration-300 hover:bg-services-aqua"
               >
                 <i
-                  class="fa-solid fa-wave-square text-[#0dcaf0] bg-[rgba(13,202,240,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
+                  class="fa-solid fa-wave-square text-services-aqua bg-[rgba(13,202,240,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
                 ></i>
                 <h3
                   class="text-2xl/[1.2] mb-2 font-bold text-primary group-hover:text-white"
@@ -1111,7 +1103,7 @@
                   consequatur.
                 </p>
                 <a
-                  class="text-[#0dcaf0] py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white"
+                  class="text-services-aqua py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white mt-auto"
                   href="#"
                 >
                   <span class="font-semibold font-sans">Read More</span>
@@ -1122,10 +1114,10 @@
 
             <div class="px-3 mt-6 w-full md:w-1/2 md:mt-0 elg:w-1/3">
               <div
-                class="group py-[60px] px-[30px] text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-[#fd7e14] hover:bg-[#fd7e14]"
+                class="group h-full py-section px-[30px] flex flex-col items-center text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-services-orange transition-all duration-300 hover:bg-services-orange"
               >
                 <i
-                  class="fa-solid fa-tower-broadcast text-[#fd7e14] bg-[rgba(253,126,20,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
+                  class="fa-solid fa-tower-broadcast text-services-orange bg-[rgba(253,126,20,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
                 ></i>
                 <h3
                   class="text-2xl/[1.2] mb-2 font-bold text-primary group-hover:text-white"
@@ -1137,7 +1129,7 @@
                   sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
                 </p>
                 <a
-                  class="text-[#fd7e14] py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white"
+                  class="text-services-orange py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white mt-auto"
                   href="#"
                 >
                   <span class="font-semibold font-sans">Read More</span>
@@ -1148,10 +1140,10 @@
 
             <div class="px-3 mt-6 w-full md:w-1/2 elg:mt-0 elg:w-1/3">
               <div
-                class="group py-[60px] px-[30px] text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-[#20c997] hover:bg-[#20c997]"
+                class="group h-full py-section px-[30px] flex flex-col items-center text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-services-green transition-all duration-300 hover:bg-services-green"
               >
                 <i
-                  class="fa-solid fa-person-chalkboard text-[#20c997] bg-[rgba(32,201,151,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
+                  class="fa-solid fa-person-chalkboard text-services-green bg-[rgba(32,201,151,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
                 ></i>
                 <h3
                   class="text-2xl/[1.2] mb-2 font-bold text-primary group-hover:text-white"
@@ -1163,7 +1155,7 @@
                   Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
                 </p>
                 <a
-                  class="text-[#20c997] py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white"
+                  class="text-services-green py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white mt-auto"
                   href="#"
                 >
                   <span class="font-semibold font-sans">Read More</span>
@@ -1174,10 +1166,10 @@
 
             <div class="px-3 mt-6 w-full md:w-1/2 elg:w-1/3">
               <div
-                class="group py-[60px] px-[30px] text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-[#df1529] hover:bg-[#df1529]"
+                class="group h-full py-section px-[30px] flex flex-col items-center text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-services-red transition-all duration-300 hover:bg-services-red"
               >
                 <i
-                  class="fa-regular fa-object-group text-[#df1529] bg-[rgba(223,21,4,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
+                  class="fa-regular fa-object-group text-services-red bg-[rgba(223,21,4,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
                 ></i>
                 <h3
                   class="text-2xl/[1.2] mb-2 font-bold text-primary group-hover:text-white"
@@ -1189,7 +1181,7 @@
                   Cupiditate sed error ea fuga sit provident adipisci neque.
                 </p>
                 <a
-                  class="text-[#df1529] py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white"
+                  class="text-services-red py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white mt-auto"
                   href="#"
                 >
                   <span class="font-semibold font-sans">Read More</span>
@@ -1200,10 +1192,10 @@
 
             <div class="px-3 mt-6 w-full md:w-1/2 elg:w-1/3">
               <div
-                class="group py-[60px] px-[30px] text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-[#6610f2] hover:bg-[#6610f2]"
+                class="group h-full py-section px-[30px] flex flex-col items-center text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-services-purple transition-all duration-300 hover:bg-services-purple"
               >
                 <i
-                  class="fa-solid fa-calendar-week text-[#6610f2] bg-[rgba(102,16,242,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
+                  class="fa-solid fa-calendar-week text-services-purple bg-[rgba(102,16,242,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
                 ></i>
                 <h3
                   class="text-2xl/[1.2] mb-2 font-bold text-primary group-hover:text-white"
@@ -1215,7 +1207,7 @@
                   aut ipsam corporis aut. Sed animi at autem alias eius labore.
                 </p>
                 <a
-                  class="text-[#6610f2] py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white"
+                  class="text-services-purple py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white mt-auto"
                   href="#"
                 >
                   <span class="font-semibold font-sans">Read More</span>
@@ -1226,10 +1218,10 @@
 
             <div class="px-3 mt-6 w-full md:w-1/2 elg:w-1/3">
               <div
-                class="group py-[60px] px-[30px] text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-[#f3268c] hover:bg-[#f3268c]"
+                class="group h-full py-section px-[30px] flex flex-col items-center text-center rounded-md shadow-[0px_0_30px_rgba(0,0,0,0.1)] border-b-[3px] border-b-services-pink transition-all duration-300 hover:bg-services-pink"
               >
                 <i
-                  class="fa-regular fa-message text-[#f3268c] bg-[rgba(243,38,140,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
+                  class="fa-regular fa-message text-services-pink bg-[rgba(243,38,140,0.1)] text-[33px] p-5 rounded-sm mb-6 group-hover:bg-white"
                 ></i>
                 <h3
                   class="text-2xl/[1.2] mb-2 font-bold text-primary group-hover:text-white"
@@ -1241,7 +1233,7 @@
                   neque non et debitis iure. Corrupti recusandae ducimus enim.
                 </p>
                 <a
-                  class="text-[#f3268c] py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white"
+                  class="text-services-pink py-2 px-5 flex justify-center gap-[5px] items-center group-hover:text-white mt-auto"
                   href="#"
                 >
                   <span class="font-semibold font-sans">Read More</span>
@@ -1254,27 +1246,23 @@
       </section>
 
       <!-- Pricing Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            Pricing
-          </h2>
-          <p class="text-primary text-[32px] font-bold text-center">
-            Check Our Affordable Pricing
-          </p>
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">Pricing</h2>
+          <p class="section-title">Check Our Affordable Pricing</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
+        <div class="section-container">
           <div class="flex flex-col md:flex-row flex-wrap items-start">
-            <div class="w-full px-3 mt-6 md:w-1/2 elg:w-1/4">
+            <div
+              class="w-full px-3 mt-6 md:w-1/2 elg:w-1/4 transition-scale duration-300 hover:scale-110"
+            >
               <div
                 class="relative py-10 px-5 rounded-sm h-full text-center shadow-[0px_0_30px_rgba(0,0,0,0.1)]"
               >
-                <h3 class="text-[#20c997] text-lg/[1.2] mb-4 font-bold">
+                <h3 class="text-services-green text-lg/[1.2] mb-4 font-bold">
                   Free Plan
                 </h3>
 
@@ -1285,7 +1273,7 @@
                 </div>
 
                 <div class="py-5 h-28 flex items-center justify-center">
-                  <i class="fa-solid fa-box text-[#20c997] text-5xl"></i>
+                  <i class="fa-solid fa-box text-services-green text-5xl"></i>
                 </div>
 
                 <ul class="text-default text-base/[26px] mb-6 font-sans">
@@ -1308,7 +1296,9 @@
               </div>
             </div>
 
-            <div class="w-full px-3 mt-6 md:w-1/2 elg:w-1/4">
+            <div
+              class="w-full px-3 mt-6 md:w-1/2 elg:w-1/4 transition-scale duration-300 hover:scale-110"
+            >
               <div
                 class="relative overflow-hidden py-10 px-5 rounded-sm h-full text-center shadow-[0px_0_30px_rgba(0,0,0,0.1)]"
               >
@@ -1316,7 +1306,7 @@
                   class="absolute w-[200px] top-[18px] right-[-68px] rotate-45 z-1 text-sm pt-px pb-[3px] bg-secondary text-white font-sans"
                   >Featured</span
                 >
-                <h3 class="text-[#0dcaf0] text-lg/[1.2] mb-4 font-bold">
+                <h3 class="text-services-aqua text-lg/[1.2] mb-4 font-bold">
                   Starter Plan
                 </h3>
 
@@ -1328,7 +1318,7 @@
 
                 <div class="py-5 h-28 flex items-center justify-center">
                   <i
-                    class="fa-regular fa-paper-plane text-[#0dcaf0] text-[40px]"
+                    class="fa-regular fa-paper-plane text-services-aqua text-[40px]"
                   ></i>
                 </div>
 
@@ -1350,11 +1340,13 @@
               </div>
             </div>
 
-            <div class="w-full px-3 mt-6 md:w-1/2 elg:w-1/4">
+            <div
+              class="w-full px-3 mt-6 md:w-1/2 elg:w-1/4 transition-scale duration-300 hover:scale-110"
+            >
               <div
                 class="relative py-10 px-5 rounded-sm h-full text-center shadow-[0px_0_30px_rgba(0,0,0,0.1)]"
               >
-                <h3 class="text-[#fd7e14] text-lg/[1.2] mb-4 font-bold">
+                <h3 class="text-services-orange text-lg/[1.2] mb-4 font-bold">
                   Business Plan
                 </h3>
 
@@ -1365,7 +1357,9 @@
                 </div>
 
                 <div class="py-5 h-28 flex items-center justify-center">
-                  <i class="fa-solid fa-plane-up text-[#fd7e14] text-5xl"></i>
+                  <i
+                    class="fa-solid fa-plane-up text-services-orange text-5xl"
+                  ></i>
                 </div>
 
                 <ul class="text-default text-base/[26px] mb-6 font-sans">
@@ -1384,11 +1378,13 @@
               </div>
             </div>
 
-            <div class="w-full px-3 mt-6 md:w-1/2 elg:w-1/4">
+            <div
+              class="w-full px-3 mt-6 md:w-1/2 elg:w-1/4 transition-scale duration-300 hover:scale-110"
+            >
               <div
                 class="relative py-10 px-5 rounded-sm h-full text-center shadow-[0px_0_30px_rgba(0,0,0,0.1)]"
               >
-                <h3 class="text-[#0d6efd] text-lg/[1.2] mb-4 font-bold">
+                <h3 class="text-pricing-blue text-lg/[1.2] mb-4 font-bold">
                   Ultimate Plan
                 </h3>
 
@@ -1399,7 +1395,7 @@
                 </div>
 
                 <div class="py-5 h-28 flex items-center justify-center">
-                  <i class="fa-solid fa-rocket text-[#0d6efd] text-5xl"></i>
+                  <i class="fa-solid fa-rocket text-pricing-blue text-5xl"></i>
                 </div>
 
                 <ul class="text-default text-base/[26px] mb-6 font-sans">
@@ -1421,22 +1417,16 @@
         </div>
       </section>
 
-      <!-- FAQs Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            f.a.q
-          </h2>
-          <p class="text-primary text-[32px] font-bold text-center">
-            Frequently Asked Questions
-          </p>
+      <!-- FAQ Section -->
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">f.a.q</h2>
+          <p class="section-title">Frequently Asked Questions</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
+        <div class="section-container">
           <div class="flex flex-col elg:flex-row flex-wrap items-start">
             <div class="px-3 w-full elg:w-1/2">
               <div
@@ -1577,24 +1567,18 @@
       </section>
 
       <!-- Portfolio Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            portfolio
-          </h2>
-          <p class="text-primary text-[32px] font-bold text-center">
-            Check our latest work
-          </p>
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">portfolio</h2>
+          <p class="section-title">Check our latest work</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px] px-3"
-        >
+        <div class="section-container px-3">
           <div class="flex flex-col elg:flex-row flex-wrap items-start">
             <ul
-              class="portfolio-filters flex flex-wrap justify-center gap-2.5 mb-5 mx-auto text-center font-sans text-sm"
+              class="portfolio-filters flex flex-wrap justify-center gap-6 mb-5 mx-auto text-center font-sans text-lg"
             >
               <li
                 data-filter="all"
@@ -1658,11 +1642,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -1700,11 +1686,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -1742,11 +1730,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -1784,11 +1774,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -1826,11 +1818,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -1868,11 +1862,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -1910,11 +1906,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -1952,11 +1950,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -1994,11 +1994,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -2036,11 +2038,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -2078,11 +2082,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -2120,11 +2126,13 @@
                 >
                   <a href="#">
                     <i
-                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white"
+                      class="fa-solid fa-magnifying-glass-plus text-2xl text-white transition-text duration-200 hover:text-secondary"
                     ></i>
                   </a>
                   <a href="#">
-                    <i class="fa-solid fa-link text-2xl text-white"></i>
+                    <i
+                      class="fa-solid fa-link text-2xl text-white transition-text duration-200 hover:text-secondary"
+                    ></i>
                   </a>
                 </div>
 
@@ -2139,31 +2147,25 @@
         </div>
       </section>
 
-      <!-- Testimonials Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            Testimonials
-          </h2>
-          <p class="text-primary text-[32px] font-bold text-center">
-            What they are saying about us
-          </p>
+      <!-- Testimonial Section -->
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">Testimonials</h2>
+          <p class="section-title">What they are saying about us</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px] px-3"
-        >
+        <div class="section-container px-3">
           <!-- Slider viewport -->
           <div class="swiper testimonial-slider relative overflow-hidden">
             <div class="swiper-wrapper">
               <!-- Slide 1 -->
-              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3">
+              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3 flex">
                 <div
-                  class="h-[stretch] flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
+                  class="w-full flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
                 >
-                  <div class="flex mb-4 text-[#ffc107]">
+                  <div class="flex mb-4 text-testimonial-yellow">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -2199,11 +2201,11 @@
               </div>
 
               <!-- Slide 2 -->
-              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3">
+              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3 flex">
                 <div
-                  class="h-[stretch] flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
+                  class="w-full flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
                 >
-                  <div class="flex mb-4 text-[#ffc107]">
+                  <div class="flex mb-4 text-testimonial-yellow">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -2239,11 +2241,11 @@
               </div>
 
               <!-- Slide 3 -->
-              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3">
+              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3 flex">
                 <div
-                  class="h-[stretch] flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
+                  class="w-full flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
                 >
-                  <div class="flex mb-4 text-[#ffc107]">
+                  <div class="flex mb-4 text-testimonial-yellow">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -2278,11 +2280,11 @@
               </div>
 
               <!-- Slide 4 -->
-              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3">
+              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3 flex">
                 <div
-                  class="h-[stretch] flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
+                  class="w-full flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
                 >
-                  <div class="flex mb-4 text-[#ffc107]">
+                  <div class="flex mb-4 text-testimonial-yellow">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -2318,11 +2320,11 @@
               </div>
 
               <!-- Slide 5 -->
-              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3">
+              <div class="swiper-slide w-full lg:w-1/3 shrink-0 px-3 flex">
                 <div
-                  class="h-[stretch] flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
+                  class="w-full flex flex-col items-center my-10 mx-5 min-h-[320px] bg-white shadow-[0px_0_20px_rgba(0,0,0,0.1)] p-[30px]"
                 >
-                  <div class="flex mb-4 text-[#ffc107]">
+                  <div class="flex mb-4 text-testimonial-yellow">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -2365,24 +2367,18 @@
       </section>
 
       <!-- Team Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            Team
-          </h2>
-          <p class="text-primary text-[32px] font-bold text-center">
-            Our hard working team
-          </p>
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">Team</h2>
+          <p class="section-title">Our hard working team</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
-          <div class="flex flex-col md:flex-row flex-wrap items-start">
+        <div class="section-container">
+          <div class="flex flex-col md:flex-row flex-wrap elg:items-stretch">
             <div
-              class="w-full px-3 md:w-1/2 elg:w-1/4 shadow-[0px_0_30px_rgba(0,0,0,0.1)] overflow-hidden text-center rounded-[5px]"
+              class="w-full px-3 md:w-1/2 elg:w-1/4 text-center rounded-[5px]"
             >
               <div
                 class="group relative rounded-sm h-full text-center shadow-[0px_0_30px_rgba(0,0,0,0.1)] transition-transform duration-300 hover:scale-[1.08]"
@@ -2440,7 +2436,7 @@
             </div>
 
             <div
-              class="w-full px-3 mt-6 md:mt-0 md:w-1/2 elg:w-1/4 shadow-[0px_0_30px_rgba(0,0,0,0.1)] overflow-hidden text-center rounded-[5px]"
+              class="w-full px-3 mt-6 md:mt-0 md:w-1/2 elg:w-1/4 text-center rounded-[5px]"
             >
               <div
                 class="group relative rounded-sm h-full text-center shadow-[0px_0_30px_rgba(0,0,0,0.1)] transition-transform duration-300 hover:scale-[1.08]"
@@ -2498,7 +2494,7 @@
             </div>
 
             <div
-              class="w-full px-3 mt-6 elg:mt-0 md:w-1/2 elg:w-1/4 shadow-[0px_0_30px_rgba(0,0,0,0.1)] overflow-hidden text-center rounded-[5px]"
+              class="w-full px-3 mt-6 elg:mt-0 md:w-1/2 elg:w-1/4 text-center rounded-[5px]"
             >
               <div
                 class="group relative rounded-sm h-full text-center shadow-[0px_0_30px_rgba(0,0,0,0.1)] transition-transform duration-300 hover:scale-[1.08]"
@@ -2554,7 +2550,7 @@
             </div>
 
             <div
-              class="w-full px-3 mt-6 md:w-1/2 elg:mt-0 elg:w-1/4 shadow-[0px_0_30px_rgba(0,0,0,0.1)] overflow-hidden text-center rounded-[5px]"
+              class="w-full px-3 mt-6 md:w-1/2 elg:mt-0 elg:w-1/4 text-center rounded-[5px]"
             >
               <div
                 class="group relative rounded-sm h-full text-center shadow-[0px_0_30px_rgba(0,0,0,0.1)] transition-transform duration-300 hover:scale-[1.08]"
@@ -2615,21 +2611,15 @@
       </section>
 
       <!-- Clients Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            Clients
-          </h2>
-          <p class="text-primary text-[32px] font-bold text-center">
-            We work with best clients
-          </p>
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">Clients</h2>
+          <p class="section-title">We work with best clients</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
+        <div class="section-container">
           <div
             class="flex flex-col px-3 gap-5 md:flex-row flex-wrap md:gap-2.5 items-center justify-evenly"
           >
@@ -2712,22 +2702,16 @@
         </div>
       </section>
 
-      <!-- Recent Posts Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            Recent Posts
-          </h2>
-          <p class="text-primary text-[32px] font-bold text-center">
-            Recent posts form our Blog
-          </p>
+      <!-- Recent Posts Section  -->
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">Recent Posts</h2>
+          <p class="section-title">Recent posts form our Blog</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
+        <div class="section-container">
           <div class="flex flex-col gap-12 md:flex-row flex-wrap md:gap-0">
             <div
               class="group px-3 w-full max-w-full shrink-0 md:w-1/2 lg:w-1/3"
@@ -2895,21 +2879,15 @@
       </section>
 
       <!-- Contact Section -->
-      <section class="py-[60px]">
-        <div class="flex flex-col gap-2.5 px-3 pb-[60px] mx-auto w-fit">
-          <h2
-            class="w-fit mx-auto text-sm tracking-[1px] font-bold py-2 px-5 text-secondary bg-secondary/10 uppercase font-sans rounded-full"
-          >
-            contact
-          </h2>
-          <p class="text-primary text-[32px] font-bold text-center">
-            Contact Us
-          </p>
+      <section class="py-section">
+        <div
+          class="flex flex-col gap-2.5 px-3 pb-section mx-auto w-fit text-center"
+        >
+          <h2 class="section-badge w-fit mx-auto">contact</h2>
+          <p class="section-title">Contact Us</p>
         </div>
 
-        <div
-          class="w-full mx-auto max-w-[540px] md:max-w-[720px] elg:max-w-[960px] lg:max-w-[1140px] xxl:max-w-[1320px]"
-        >
+        <div class="section-container">
           <div class="flex flex-col gap-6 elg:flex-row flex-wrap elg:gap-0">
             <div
               class="flex flex-col gap-6 md:flex-row flex-wrap md:gap-0 elg:w-1/2"
@@ -2968,7 +2946,7 @@
                 <div class="flex flex-col gap-6 md:flex-row flex-wrap md:gap-0">
                   <div class="w-full max-w-full px-3 shrink-0 md:w-1/2">
                     <input
-                      class="w-full text-sm text-default py-2.5 px-[15px] bg-white/50 border border-default/20"
+                      class="w-full text-sm text-default py-2.5 px-[15px] bg-white/50 border border-default/20 outline-none focus:border-secondary"
                       type="text"
                       name="name"
                       placeholder="Your Name"
@@ -2978,7 +2956,7 @@
 
                   <div class="w-full max-w-full px-3 shrink-0 md:w-1/2">
                     <input
-                      class="w-full text-sm text-default py-2.5 px-[15px] bg-white/50 border border-default/20"
+                      class="w-full text-sm text-default py-2.5 px-[15px] bg-white/50 border border-default/20 outline-none focus:border-secondary"
                       type="email"
                       name="email"
                       placeholder="Your Email"
@@ -2988,7 +2966,7 @@
 
                   <div class="w-full max-w-full px-3 shrink-0 md:mt-6">
                     <input
-                      class="w-full text-sm text-default py-2.5 px-[15px] bg-white/50 border border-default/20"
+                      class="w-full text-sm text-default py-2.5 px-[15px] bg-white/50 border border-default/20 outline-none focus:border-secondary"
                       type="text"
                       name="subject"
                       placeholder="Subject"
@@ -2998,7 +2976,7 @@
 
                   <div class="w-full max-w-full px-3 shrink-0 md:mt-6">
                     <textarea
-                      class="w-full text-sm text-default py-2.5 px-[15px] bg-white/50 border border-default/20"
+                      class="w-full text-sm text-default py-2.5 px-[15px] bg-white/50 border border-default/20 outline-none focus:border-secondary"
                       name="message"
                       rows="6"
                       placeholder="Message"
@@ -3010,7 +2988,7 @@
                     class="w-full max-w-full px-3 shrink-0 text-center md:mt-6"
                   >
                     <button
-                      class="bg-secondary text-white font-sans font-medium py-2.5 px-[30px] rounded-sm"
+                      class="bg-secondary text-white font-sans font-medium py-2.5 px-[30px] rounded-sm cursor-pointer hover:bg-secondary/80"
                     >
                       Send Message
                     </button>
@@ -3028,12 +3006,14 @@
       <div
         class="bg-[color-mix(in_srgb,var(--color-secondary),transparent_97%)] border-y border-y-secondary/15 py-[50px]"
       >
-        <div class="mx-auto w-full px-3">
-          <div class="flex flex-col flex-wrap items-center justify-center">
+        <div class="section-container px-3">
+          <div
+            class="flex flex-col flex-wrap items-center justify-center elg:w-1/2 elg:mx-auto"
+          >
             <h4 class="text-2xl font-bold pb-3 text-primary">
               Join Our Newsletter
             </h4>
-            <p class="mb-4 text-center font-sans">
+            <p class="mb-4 text-center font-sans elg:mb-0">
               Subscribe to our newsletter and receive the latest news about our
               products and services!
             </p>
@@ -3046,7 +3026,7 @@
                   type="email"
                 />
                 <input
-                  class="outline-none border-0 text-base px-5 my-[-7px] -mr-2 bg-secondary text-white rounded-[0_4px_4px_0]"
+                  class="outline-none border-0 text-base px-5 my-[-7px] -mr-2 bg-secondary text-white rounded-[0_4px_4px_0] cursor-pointer hover:bg-secondary/80"
                   type="submit"
                   value="Subscribe"
                 />
@@ -3056,14 +3036,14 @@
         </div>
       </div>
 
-      <div class="pt-[50px] px-3 mx-auto">
+      <div class="section-container pt-[50px] px-3 md:px-0">
         <div class="flex flex-col md:flex-row flex-wrap">
-          <div class="md:w-1/2 elg:w-1/3">
+          <div class="md:w-1/2 md:px-3 elg:w-1/3">
             <a class="text-primary text-2xl font-semibold" href="#">
               FlexStart
             </a>
 
-            <div class="pt-4">
+            <div class="pt-4 text-sm/normal">
               <p class="mb-[5px]">A108 Adam Street</p>
               <p class="mb-[5px]">New York, NY 535022</p>
               <p class="mt-3 mb-[5px]">
@@ -3077,55 +3057,71 @@
             </div>
           </div>
 
-          <div class="block mt-6 mb-[30px] md:w-1/4 md:mt-0 elg:w-1/6">
+          <div class="block mt-6 mb-[30px] md:w-1/4 md:px-3 md:mt-0 elg:w-1/6">
             <h4 class="text-base font-base font-bold pb-[10px] text-primary">
               Useful Links
             </h4>
             <ul>
               <li class="py-[10px] flex items-center gap-[3px]">
                 <i class="fa-solid fa-chevron-right text-xs text-secondary"></i>
-                <a class="text-default/80" href="#">Home</a>
+                <a class="text-default/80 hover:text-secondary" href="#"
+                  >Home</a
+                >
               </li>
               <li class="py-[10px] flex items-center gap-[3px]">
                 <i class="fa-solid fa-chevron-right text-xs text-secondary"></i>
-                <a class="text-default/80" href="#">About us</a>
+                <a class="text-default/80 hover:text-secondary" href="#"
+                  >About us</a
+                >
               </li>
               <li class="py-[10px] flex items-center gap-[3px]">
                 <i class="fa-solid fa-chevron-right text-xs text-secondary"></i>
-                <a class="text-default/80" href="#">Services</a>
+                <a class="text-default/80 hover:text-secondary" href="#"
+                  >Services</a
+                >
               </li>
               <li class="py-[10px] flex items-center gap-[3px]">
                 <i class="fa-solid fa-chevron-right text-xs text-secondary"></i>
-                <a class="text-default/80" href="#">Terms of service</a>
+                <a class="text-default/80 hover:text-secondary" href="#"
+                  >Terms of service</a
+                >
               </li>
             </ul>
           </div>
 
-          <div class="block mt-6 mb-[30px] md:w-1/4 md:mt-0 elg:w-1/6">
+          <div class="block mt-6 mb-[30px] md:w-1/4 md:px-3 md:mt-0 elg:w-1/6">
             <h4 class="text-base font-base font-bold pb-[10px] text-primary">
               Our Services
             </h4>
             <ul>
               <li class="py-[10px] flex items-center gap-[3px]">
                 <i class="fa-solid fa-chevron-right text-xs text-secondary"></i>
-                <a class="text-default/80" href="#">Web Design</a>
+                <a class="text-default/80 hover:text-secondary" href="#"
+                  >Web Design</a
+                >
               </li>
               <li class="py-[10px] flex items-center gap-[3px]">
                 <i class="fa-solid fa-chevron-right text-xs text-secondary"></i>
-                <a class="text-default/80" href="#">Web Development</a>
+                <a class="text-default/80 hover:text-secondary" href="#"
+                  >Web Development</a
+                >
               </li>
               <li class="py-[10px] flex items-center gap-[3px]">
                 <i class="fa-solid fa-chevron-right text-xs text-secondary"></i>
-                <a class="text-default/80" href="#">Product Management</a>
+                <a class="text-default/80 hover:text-secondary" href="#"
+                  >Product Management</a
+                >
               </li>
               <li class="py-[10px] flex items-center gap-[3px]">
                 <i class="fa-solid fa-chevron-right text-xs text-secondary"></i>
-                <a class="text-default/80" href="#">Marketing</a>
+                <a class="text-default/80 hover:text-secondary" href="#"
+                  >Marketing</a
+                >
               </li>
             </ul>
           </div>
 
-          <div class="mt-6 elg:w-1/3 elg:mt-0">
+          <div class="mt-6 md:px-3 elg:w-1/3 elg:mt-0">
             <h4 class="text-base font-bold pb-3 font-base text-primary mb-2">
               Follow Us
             </h4>
@@ -3163,7 +3159,9 @@
         </div>
       </div>
 
-      <div class="py-[25px] border-t border-t-default/10 mt-6 px-3 text-center text-sm/normal">
+      <div
+        class="py-[25px] border-t border-t-default/10 mt-6 px-3 text-center text-sm/normal"
+      >
         <p>
           &copy;
           <span>Copyright</span>
